@@ -9,4 +9,6 @@ target_include_directories(pico-I2C
 target_link_libraries(pico-I2C
     pico_stdlib
     hardware_i2c
+    hardware_dma
+    hardware_irq
     pico-FreeRTOS)
